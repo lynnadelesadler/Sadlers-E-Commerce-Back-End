@@ -60,10 +60,10 @@ if(!tagsData) {
 router.delete('/:id', async(req, res) => {
   // delete on tag by its `id` value
   try {
-    const tagsData = await Tag.destroy(req.body, {
+    const tagsData = await Tag.destroy({
       where: {
         id: req.params.id
-      }
+     }
   });
   if(!tagsData) {
     res.status(404).json({Message: "No tag exists with this ID..."})
@@ -71,7 +71,6 @@ router.delete('/:id', async(req, res) => {
   }
     res.status(200).json(tagsData);
   } catch(err) {
-    console.log(err);
     res.status(500).json(err);
   }
 });
