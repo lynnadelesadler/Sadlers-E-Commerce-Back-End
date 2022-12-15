@@ -12,7 +12,7 @@ https://github.com/lynnadelesadler/Sadlers-E-Commerce-Back-End
 
 The URL of the video walk through  ...
 
-https://drive.google.com/file/d/1Dbt4mSWf6atF4-ne04YXE5s617zvuw78/view
+https://drive.google.com/file/d/1N6Jvu18yWtjluF_I7Ay2gcIVE7DGbxeV/view
 
 
 ## Installation
